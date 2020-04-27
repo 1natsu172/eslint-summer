@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "beach",
+  "description": "beach is sandbox.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-plugin-summer": "*"
+  },
+  "scripts": {
+    "prepare": "exit 0",
+    "test": "echo \"a === undefined\" | eslint --stdin --fix-dry-run --format=json"
+  }
+}

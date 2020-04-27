@@ -1,0 +1,31 @@
+{
+  "name": "eslint-summer",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/1natsu172/eslint-summer.git",
+  "author": "<1natsu172@users.noreply.github.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "symlink": "yarn install",
+    "bootstrap": "yarn symlink && yarn lerna exec -- yarn prepare # lerna bootstrap broken with useWorkspaces"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "@types/eslint": "^6.8.0",
+    "@types/node": "^13.13.4",
+    "@types/jest": "^25.2.1",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0"
+  }
+}

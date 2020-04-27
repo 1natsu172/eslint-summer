@@ -1,0 +1,15 @@
+{
+  "name": "eslint-rules-summer",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn clean && yarn build",
+    "clean": "rimraf ./dist",
+    "build": "yarn run clean && tsc index.ts --outDir dist"
+  }
+}
