@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-rules-summer/compare/v1.0.2...v1.1.0) (2020-04-29)
+
+
+### Bug Fixes
+
+* stop provide fixable ([2ed0595](https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-rules-summer/commit/2ed059581f3ea0f8a672ffd909d10149910e3400))
+
+
+
+
+
 ## [1.0.2](https://github.com/1natsu172/eslint-summer/compare/v1.0.1...v1.0.2) (2020-04-29)
 
 

@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/1natsu172/eslint-summer/compare/v1.0.2...v1.1.0) (2020-04-29)
+
+
+### Bug Fixes
+
+* exclude test file from dist ([6069820](https://github.com/1natsu172/eslint-summer/commit/6069820e0b4235cc364e69f574de824a23b71ccd))
+* stop provide fixable ([2ed0595](https://github.com/1natsu172/eslint-summer/commit/2ed059581f3ea0f8a672ffd909d10149910e3400))
+
+
+### Features
+
+* eslint-plugin-summer recommended config ([4b2203e](https://github.com/1natsu172/eslint-summer/commit/4b2203e8618ba0340a2053f7ce2b30cf2575cf89))
+
+
+
+
+
 ## [1.0.2](https://github.com/1natsu172/eslint-summer/compare/v1.0.1...v1.0.2) (2020-04-29)
 
 
