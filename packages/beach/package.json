@@ -2,11 +2,11 @@
   "private": true,
   "name": "beach",
   "description": "beach is sandbox.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint-plugin-summer": "*"
+    "eslint-plugin-summer": "^1.0.1"
   },
   "scripts": {
     "prepare": "exit 0",
