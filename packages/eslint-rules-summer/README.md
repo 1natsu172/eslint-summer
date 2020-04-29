@@ -35,3 +35,21 @@ if(a !== undefined) { // something }
 if(undefined === a) { // something }
 if(undefined !== a) { // something }
 ```
+
+## For developer
+
+This module is a single rules module, so normally you don't have to consciously install.
+
+If you are developer and want to use this rules module, you can install with the following command.
+
+> npm
+
+```console
+$ npm install --save-dev eslint-rules-summer
+```
+
+> yarn
+
+```console
+$ yarn add -D eslint-rules-summer
+```

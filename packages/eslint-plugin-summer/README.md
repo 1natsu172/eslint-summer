@@ -2,6 +2,20 @@
 
 The never ending summer plugin of lint.
 
+## Install
+
+> npm
+
+```console
+$ npm install --save-dev eslint eslint-plugin-summer
+```
+
+> yarn
+
+```console
+$ yarn add -D eslint eslint-plugin-summer
+```
+
 ## usage
 
 Setup `.eslintrc`
@@ -23,7 +37,7 @@ Setup on your `.eslintrc` with the `extends` option:
 
 ```json
 {
-  "extends": ["plugin:summer/recommended"],
+  "extends": ["plugin:summer/recommended"]
 }
 ```
 
