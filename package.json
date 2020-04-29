@@ -11,7 +11,13 @@
   ],
   "scripts": {
     "symlink": "yarn install",
-    "bootstrap": "yarn symlink && yarn lerna exec -- yarn prepare # lerna bootstrap broken with useWorkspaces"
+    "test": "lerna run test",
+    "bootstrap": "yarn symlink && lerna exec -- yarn prepare # lerna bootstrap broken with useWorkspaces",
+    "versionup": "lerna version --conventional-commits",
+    "versionup:patch": "lerna version patch --conventional-commits",
+    "versionup:minor": "lerna version minor --conventional-commits",
+    "versionup:major": "lerna version major --conventional-commits",
+    "release": "lerna publish from-package"
   },
   "devDependencies": {
     "lerna": "^3.20.2",

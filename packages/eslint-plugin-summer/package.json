@@ -9,11 +9,10 @@
   "scripts": {
     "prepare": "yarn clean && yarn build",
     "clean": "rimraf ./dist",
-    "build": "tsc index.ts --outDir dist"
+    "build": "tsc -p . --outDir dist"
   },
   "dependencies": {
-    "eslint-rules-summer": "^1.0.0",
-    "@zeit/ncc": "^0.22.1"
+    "eslint-rules-summer": "^1.0.0"
   },
   "devDependencies": {},
   "peerDependencies": {
