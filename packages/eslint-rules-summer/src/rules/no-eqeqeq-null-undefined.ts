@@ -43,7 +43,8 @@ const rule: Rule.RuleModule = {
       unexpected:
         "Expected '{{expectedOperator}}' and instead saw '{{actualOperator}}'.",
     },
-    fixable: 'code',
+    // TODO: Temporarily stop providing fixable
+    // fixable: 'code',
   },
   create: (context) => {
     const sourceCode = context.getSourceCode()
@@ -69,12 +70,13 @@ const rule: Rule.RuleModule = {
             node,
             messageId: 'unexpected',
             data: { expectedOperator, actualOperator: node.operator },
-            fix: (fixer) => {
-              if (operatorToken) {
-                return fixer.replaceText(operatorToken, expectedOperator)
-              }
-              return null
-            },
+            // TODO: Temporarily stop providing fixable
+            // fix: (fixer) => {
+            //   if (operatorToken) {
+            //     return fixer.replaceText(operatorToken, expectedOperator)
+            //   }
+            //   return null
+            // },
           })
         }
       },
