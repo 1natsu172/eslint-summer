@@ -6,7 +6,7 @@ The never ending summer rules of lint.
 
 ### no-eqeqeq-null-undefined
 
-Do not compare null or undefined with `strict equality`
+Do not compare null or undefined with `strict equality(===)` | `strict inequality(!==)`
 
 👍
 
