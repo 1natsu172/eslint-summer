@@ -23,7 +23,7 @@ export const configs = {
     },
     plugins: [PLUGIN_NAME],
     rules: {
-      [`${PLUGIN_NAME}/no-eqeqeq-null-undefined`]: 'error',
+      [`${PLUGIN_NAME}/no-eqeqeq-null-undefined`]: 'off',
     },
   },
 }
