@@ -11,6 +11,6 @@
   },
   "scripts": {
     "prepare": "exit 0",
-    "test": "echo \"a === undefined\" | eslint --stdin --fix-dry-run --format=json"
+    "test": "#echo \"a === undefined\" | eslint --stdin --fix-dry-run --format=json"
   }
 }

@@ -9,7 +9,9 @@
   "license": "MIT",
   "scripts": {
     "prepare": "yarn clean && yarn build",
+    "prepublishOnly": "yarn test",
     "clean": "rimraf ./dist",
-    "build": "tsc -p . --outDir dist"
+    "build": "tsc -p . --outDir dist",
+    "test": "jest"
   }
 }
