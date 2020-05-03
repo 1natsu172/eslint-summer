@@ -11,3 +11,6 @@ if (null == a) {
 if (a != undefined) {
   console.log('ao')
 }
+
+// let tokyo = 1
+// let ddd = 1

@@ -7,6 +7,7 @@ const PLUGIN_NAME = 'summer'
  */
 export const rules = {
   'no-eqeqeq-null-undefined': summerRules.noEqeqeqNullUndefined,
+  'no-let': summerRules.noLet,
 }
 
 /**
@@ -24,6 +25,7 @@ export const configs = {
     plugins: [PLUGIN_NAME],
     rules: {
       [`${PLUGIN_NAME}/no-eqeqeq-null-undefined`]: 'off',
+      [`${PLUGIN_NAME}/no-let`]: 'error',
     },
   },
 }
