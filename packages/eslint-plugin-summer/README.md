@@ -24,7 +24,9 @@ Setup `.eslintrc`
 {
   "plugins": ["summer"],
   "rules": {
-    "summer/no-eqeqeq-null-undefined": "error"
+    "summer/no-eqeqeq-null-undefined": "error",
+    "summer/no-let": "error",
+    "summer/no-plain-new-date": "error"
   }
 }
 ```
