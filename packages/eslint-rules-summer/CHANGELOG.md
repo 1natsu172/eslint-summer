@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-rules-summer/compare/v1.1.0...v2.0.0) (2020-05-04)
+
+
+### Features
+
+* add new rule - no-let ([5684e59](https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-rules-summer/commit/5684e598b15f252ac3537c163ec3e1abf97a7288))
+* new rule - no-plain-new-date ([0fed8f4](https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-rules-summer/commit/0fed8f47a5b02e665c0813d9c34a3353eacd2b4f))
+
+
+
+
+
 # [1.1.0](https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-rules-summer/compare/v1.0.2...v1.1.0) (2020-04-29)
 
 
