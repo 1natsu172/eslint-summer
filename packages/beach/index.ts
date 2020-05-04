@@ -14,3 +14,5 @@ if (a != undefined) {
 
 // let tokyo = 1
 // let ddd = 1
+
+// new Date()

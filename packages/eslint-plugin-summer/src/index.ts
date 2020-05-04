@@ -8,6 +8,7 @@ const PLUGIN_NAME = 'summer'
 export const rules = {
   'no-eqeqeq-null-undefined': summerRules.noEqeqeqNullUndefined,
   'no-let': summerRules.noLet,
+  'no-plain-new-date': summerRules.noPlainNewDate,
 }
 
 /**
@@ -26,6 +27,7 @@ export const configs = {
     rules: {
       [`${PLUGIN_NAME}/no-eqeqeq-null-undefined`]: 'off',
       [`${PLUGIN_NAME}/no-let`]: 'error',
+      [`${PLUGIN_NAME}/no-plain-new-date`]: 'error',
     },
   },
 }
