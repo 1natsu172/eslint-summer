@@ -13,5 +13,8 @@
     "clean": "rimraf ./dist",
     "build": "tsc -p . --outDir dist",
     "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "7.0.0"
   }
 }
