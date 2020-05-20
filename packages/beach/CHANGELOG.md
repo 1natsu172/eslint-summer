@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/1natsu172/eslint-summer/tree/master/packages/beach/compare/v2.0.0...v2.0.1) (2020-05-20)
+
+**Note:** Version bump only for package beach
+
+
+
+
+
 # [2.0.0](https://github.com/1natsu172/eslint-summer/tree/master/packages/beach/compare/v1.1.0...v2.0.0) (2020-05-04)
 
 

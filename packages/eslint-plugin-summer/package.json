@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-summer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "https://github.com/1natsu172/eslint-summer/tree/master/packages/eslint-plugin-summer",
   "main": "dist/index.js",
   "files": [
@@ -13,7 +13,7 @@
     "build": "tsc -p . --outDir dist"
   },
   "dependencies": {
-    "eslint-rules-summer": "^2.0.0"
+    "eslint-rules-summer": "^2.0.1"
   },
   "peerDependencies": {
     "eslint": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
